@@ -1,0 +1,104 @@
+/***********************
+    NAVIGATION
+***********************/
+
+.navbar {
+    width: 100% !important;
+    background-color: rgba(149, 149, 149, 0.77);
+    margin: 0;
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.navbar-nav a {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif !important;
+    color: white !important;
+}
+
+.navbar-nav .nav-item:hover {
+    color: black !important;
+    -webkit-transition: color 0.2s;
+}
+
+
+/*---------------------------------
+    HEADER
+---------------------------------*/
+#header {
+    background-image: url(/img/forest.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.headerTitle {
+    font-family: 'Lobster', cursive;
+    font-size: 800%;
+    color: white;
+    padding-top: 10%;
+}
+
+.headerSubtitle {
+    font-family: 'Slabo 27px', serif;
+    font-size: 200%;
+    color: white;
+}
+
+/*---------------------------------
+    RANDOM PHOTO
+---------------------------------*/
+
+#random {
+    height: 100vh;
+}
+/*------Cards ----*/
+
+.card img{
+  max-width:100%;
+}
+
+.card-title {
+    font-family: 'Lato', sans-serif;
+}
+
+.note h6{
+    padding-top: 4%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+
+}
+
+/*------Card Overlays ----*/
+
+a {
+ -webkit-transition: .25s all;
+ transition: .25s all;
+}
+.card {
+ overflow: hidden;
+ box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.16), 0 12px 20px 0 rgba(0, 0, 0, 0.12);
+ -webkit-transition: .25s box-shadow;
+ transition: .25s box-shadow;
+}
+.card:focus, .card:hover {
+ box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.38), 0 4px 15px 0 rgba(0, 0, 0, 0.35);
+}
+.card-inverse .card-img-overlay {
+ background-color: rgba(51, 51, 51, 0.85);
+ border-color: rgba(51, 51, 51, 0.85);
+}
+
+/*---------------------------------
+    SEARCH PHOTO
+---------------------------------*/
+
+#searchPage {
+    height: 100vh;
+}
