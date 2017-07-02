@@ -20,7 +20,7 @@
     <div class="container-fluid">
 
       <!----------- NAVIGATION ------------>
-      <div class="row">
+      <!--<div class="row">
         <nav class="navbar navbar-toggleable-md navbar-light bg-faded py-0">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,13 +31,11 @@
             <div class="navbar-nav">
               <a class="nav-item nav-link" href="#">Random</a>
               <a class="nav-item nav-link" href="#">Search</a>
-              <a class="nav-item nav-link" href="#">Categories</a>
               <a class="nav-item nav-link" href="#">Creator</a>
-              <a class="nav-item nav-link" href="#">Copyright</a>
             </div>
           </div>
         </nav>
-      </div>
+      </div>-->
 
       <div class="row">
         <div class="col-12">
@@ -61,28 +59,39 @@
 
 
 
-  <div class="container" id="random">
-
-    <!-- First row -->
+  <div class="container randomRow" id="random">
     <div class="row">
-      <div class="col-12 col-sm-6">
+
+      <div class="col-12 col-sm-4">
+        <h1 class="randomTitle">random background</h1>
+        <p class="randomText">Feeling lucky? Roll the dice and get a random photo in return.</p>
+      </div>
+
+      <div class="col-12 col-sm-8">
         <!-- Card -->
-        <article class="card animated fadeInLeft text-center">
+        <article class="card text-center">
           <img class="card-img-top img-responsive preview" id="preview" src="" />
           <div class="card-block">
             <h4 class="card-title" id="randomTitle"></h4>
-            <button type="button" class="btn btn-outline-primary" id="newRB">New Background</button>
-            <button type="button" class="btn btn-outline-primary" id="downloadRB">Download</button>
+            <button type="button" class="btn btn-outline-success" id="newRB">New Background</button>
+            <button type="button" class="btn btn-outline-success" id="downloadRB">Download</button>
           </div>
         </article>
         <!-- .end Card -->
       </div>
+
+    </div><!--/row-->
+  </div><!--/container-->
+
+
+  <div class="container searchRow" id="searchPage">
+
+    <div class="row">
+      <div class="col-12">
+        <h1 class="searchTitle">Search for a Photo</h1>
+      </div>
     </div>
-    <!--/row-->
-  </div>
 
-
-  <div class="container" id="searchPage">
     <form>
       <div class="row">
         <div class="col-8">
@@ -92,16 +101,16 @@
         </div>
 
         <div class="col-4">
-          <input type="submit" class="btn btn btn-outline-primary" value="Search" id="submit">
+          <input type="submit" class="btn btn btn-outline-success" value="Search" id="submit">
         </div>
 
       </div>
+</form>
 
-
-      <div class="row" id="testing">
-
+      <div class="row" id="photoDisplay">
+        
       </div>
-    </form>
+    
 
   </div>
 
