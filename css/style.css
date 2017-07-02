@@ -1,3 +1,7 @@
+body {
+    color: black;
+}
+
 /***********************
     NAVIGATION
 ***********************/
@@ -54,8 +58,34 @@
 ---------------------------------*/
 
 #random {
-    height: 100vh;
+    /*height: 100vh;*/
 }
+
+.randomRow {
+    margin-top: 80px;
+}
+
+.randomTitle {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+.randomTitle:after {
+    display: block;
+    height: 2px;
+    background-color: #3FC380;
+    content: " ";
+    width: 290px;
+    margin: 0 auto;
+    margin-top: 30px;
+    float: left;
+}
+
+.randomText {
+    margin-top: 80px;
+    font-family: 'Lato', sans-serif;
+}
+
 /*------Cards ----*/
 
 .card img{
@@ -100,5 +130,20 @@ a {
 ---------------------------------*/
 
 #searchPage {
-    height: 100vh;
+    /*height: 100vh;*/
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.searchTitle {
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 15px;
+}
+
+.indvDisplay {
+    margin-top: 50px;
+}
+
+.searchRow {
+    margin-top: 80px;
 }
